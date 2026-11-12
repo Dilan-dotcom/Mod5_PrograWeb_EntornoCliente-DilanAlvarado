@@ -7,3 +7,4 @@ respuestas.md · cacería de errores
 | 1 | nada | 4|se escribe la palabra en minuscula |
 | 2 | unterminated string| 3| se le agregan las comillas|
 | 3 | expected ;| 5|se le agregan ; |
+|4|404 (Not Found) |1|escribir mejor la direccion|
