@@ -1,6 +1,6 @@
 // ficha.js ficha de un servicio y se enlaza al final de  contacto
 /*datos de la tabla de tarifas de contacto.html*/
-console.log("======ESTUDIO LUZ CLARA======");
+console.log("\t======ESTUDIO LUZ CLARA======");
 console.log("SESION:\tIndividual"); //alinea el dato
 console.log('Tipo:\t"Retrato"'); //muestra las comillas
 console.log("Precio:\t\u20A145 000"); //u20A1=¢(ALT+189 TECLEADO)
