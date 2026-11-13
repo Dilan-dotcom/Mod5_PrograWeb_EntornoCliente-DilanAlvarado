@@ -89,7 +89,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td>Entorno en el laboratorio y mi primer script</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S03/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S03/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/capturas/Captura de pantalla 2026-11-12 164726.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
