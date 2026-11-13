@@ -80,14 +80,14 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">(familiarizacion con js y primer ejercicio)</td>
             <td align="center"><a href="UA1/S02/prueba_entorno/app.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S02/capturas/Captura de pantalla 2026-11-13 140400.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">(practica en luz clara y casa del tomillo)</td>
             <td align="center"><a href="UA1/S03/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S03/capturas/Captura de pantalla 2026-11-12 164726.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
