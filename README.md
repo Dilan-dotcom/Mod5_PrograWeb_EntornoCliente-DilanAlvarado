@@ -73,16 +73,16 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S01</td>
             <td>Bienvenida, encuadre y diagnóstico</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S01/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S01/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">(Estado de mis conocimienttos principiantes  )</td>
+            <td align="center"><a href="UA1/S01/S01_Diagnostico_general_Estudiantes.docx" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S01/capturas/Captura de pantalla 2026-11-13 140129.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
             <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S02/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/prueba_entorno/app.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/capturas/Captura de pantalla 2026-11-13 140400.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
@@ -407,7 +407,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
 <details>
 <summary>▼<b>Clase 01 · 10/11/2026 · Bienvenida, encuadre y diagnóstico</b></summary>
 
-Archivo: [S01_Cuadro_comparativo_Nombre_Apellido.docx](UA1/S01/S01_Cuadro_comparativo_Nombre_Apellido.docx) (tarea para la clase 2).
+Archivo: [S01_Cuadro_comparativo_Nombre_Apellido.docx](UA1/S01/S01_Cuadro_comparativo_Estudiantes.docx) (tarea para la clase 2).
 
 **Conclusión**
 
