@@ -497,7 +497,7 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | #   | Expresión        | Mi predicción | Lo que mostró la consola |
 | --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` |               |                          |
+| 1   | `typeof "95000"` | 950000        |                          |
 | 2   | `typeof 95000`   |               |                          |
 | 3   | `typeof 9.5`     |               |                          |
 | 4   | `typeof "true"`  |               |                          |

@@ -13,6 +13,7 @@ let totalpeople = 0;
 //parte logica
 preciopersona = precio + MATRICULA;
 total = preciopersona * personas;
+totalpeople = cupos - personas;
 //salida de datos
 
 console.log("\t======CASA DEL TOMILLO======");
@@ -20,14 +21,12 @@ console.log("Taller:", curso);
 console.log("Precio curso :", curso);
 console.log("Precio de matricula :", MATRICULA);
 console.log("Precio total :", preciopersona);
-
 console.log("Precio por persona");
-
 console.log("¿Hay cupos?", cupos > 0);
 
-totalpeople = cupos - personas;
 console.log("Cupos disponibles :", totalpeople);
 console.log(
   "¿Menos de 250 000colones y con cupos?",
   total < 250000 && cupos > 0,
 );
+console.log("Total para personas ", personas, "personas", total);
