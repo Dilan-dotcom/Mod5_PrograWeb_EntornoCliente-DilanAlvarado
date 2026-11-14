@@ -88,15 +88,15 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
             <td align="left">(practica en luz clara y casa del tomillo)</td>
-            <td align="center"><a href="UA1/S03/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/horario/horario.html" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S03/capturas/Captura de pantalla 2026-11-12 164726.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S04/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S04/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">(aprendimos constantes,let comparaciones y peticion de datos)</td>
+            <td align="center"><a href="UA1/S04/presupuestos/js/presupuestos.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S04/capturas/Captura de pantalla 2026-11-13 175501.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S05</td>
