@@ -497,16 +497,16 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | #   | Expresión        | Mi predicción | Lo que mostró la consola |
 | --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` | 950000        |                          |
-| 2   | `typeof 95000`   |               |                          |
-| 3   | `typeof 9.5`     |               |                          |
-| 4   | `typeof "true"`  |               |                          |
-| 5   | `"5" + 2`        |               |                          |
-| 6   | `"5" - 2`        |               |                          |
-| 7   | `5 === "5"`      |               |                          |
-| 8   | `10 % 3`         |               |                          |
-| 9   | `true && false`  |               |                          |
-| 10  | `!(3 > 2)`       |               |                          |
+| 1   | `typeof "95000"` | 950000        | string                   |
+| 2   | `typeof 95000`   | 950000        | number                   |
+| 3   | `typeof 9.5`     | 9.5           | number                   |
+| 4   | `typeof "true"`  | true          | boolean                  |
+| 5   | `"5" + 2`        | 7             | 52                       |
+| 6   | `"5" - 2`        | 3             | 3                        |
+| 7   | `5 === "5"`      | true          | true                     |
+| 8   | `10 % 3`         | 3             | 1                        |
+| 9   | `true && false`  | false         | false                    |
+| 10  | `!(3 > 2)`       | true          | false                    |
 
 **Autoevaluación**
 
