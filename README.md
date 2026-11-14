@@ -512,10 +512,10 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | Indicador                                                 | Sí  | Aún no |
 | --------------------------------------------------------- | --- | ------ |
-| Uso const si el valor no cambia y let si cambia.          |     |        |
-| Reconozco cadenas, números, booleanos y null.             |     |        |
-| Calculo con operadores en lugar de escribir el resultado. |     |        |
-| Sé que prompt devuelve texto y lo convierto con Number.   |     |        |
+| Uso const si el valor no cambia y let si cambia.          | x   |        |
+| Reconozco cadenas, números, booleanos y null.             | x   |        |
+| Calculo con operadores en lugar de escribir el resultado. | x   |        |
+| Sé que prompt devuelve texto y lo convierto con Number.   | x   |        |
 
 </details>
 
