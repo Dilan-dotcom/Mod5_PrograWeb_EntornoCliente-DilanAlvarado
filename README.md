@@ -517,6 +517,36 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Calculo con operadores en lugar de escribir el resultado. | x   |        |
 | Sé que prompt devuelve texto y lo convierto con Number.   | x   |        |
 
+<!-- recuerda qui va sesion 5  -->
+
+</details>
+<details>
+<summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary>
+**Ejercicio 1 · Pruebas de cupos.js**
+| Prueba | Mensajes que mostró la consola |
+|---|---|
+| cupos = 6 |Hay cupos disponibles |
+| cupos = 2 |Quedan 2 cupos |
+| cupos = 0 | taller lleno|
+Instituto Nacional de Aprendizaje CSTI12004 Programación web en el entorno cliente
+Núcleo Comercio y Servicios · Subsector Informática y Comunicación Sesión 6 · Práctica autónoma
+Persona facilitadora: Giovanni Antonio Coto Calderón Página 6 de 6
+| nivel = "Intermedio" |Hay cupos disponibles|
+**Ejercicio 3 · Cacería con DevTools**
+| Pregunta | Respuesta |
+|---|---|
+| ¿En qué línea puso el punto de interrupción? |4 |
+| ¿Qué valor tenía descuento al detenerse? |0 |
+| ¿Cuál era la causa del error? | Las condiciones estaban en orden ascendente: evaluaba primero si era mayor a 50 000. Como 120 000 cumple esa condición, entraba al 5% y salía sin evaluar el 10%.|
+| ¿Cómo lo corrigió? |Se invirtió el orden de la estructura |
+**Autoevaluación**
+| Indicador | Sí | Aún no |
+|---|---|---|
+| Escribo if / else if / else con las condiciones en el orden correcto. | | x|
+| Uso el ternario para elegir entre dos valores. | |x |
+| Escribo switch con break y default. | | |x
+| Pongo un punto de interrupción y avanzo con F10. | |x |
+| Uso try / catch para que el programa no se detenga. | | x|
 </details>
 
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
