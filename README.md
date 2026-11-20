@@ -520,6 +520,37 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 <!-- recuerda qui va sesion 5  -->
 
 </details>
+
+<details>
+<summary>▼<b>Clase 05 · 16/11/2026 · Números, textos, fechas y conversión</b></summary>
+
+**Predicciones**
+
+| #   | Expresión                         | Mi predicción | Lo que mostró la consola |
+| --- | --------------------------------- | ------------- | ------------------------ |
+| 1   | `Math.round(2.5)`                 | 3             | 3                        |
+| 2   | `Math.floor(9.99)`                | 9             | 9                        |
+| 3   | `"Luz".length`                    | 3             | 3                        |
+| 4   | `"casa".toUpperCase()`            | CASA          | CASA                     |
+| 5   | `parseInt("12.9 horas")`          | 12            | 12                       |
+| 6   | `Number("doce")`                  | NaN           | NaN                      |
+| 7   | `(3.14159).toFixed(2)`            | 3.14          | 3.14                     |
+| 8   | `typeof (10).toString()`          | string        | string                   |
+| 9   | `new Date(2026, 0, 1).getMonth()` | 0             | 0                        |
+| 10  | <code>`2 + 3 = ${2 + 3}`</code>   | 2 + 3 = 5     | 2 + 3 = 5                |
+
+**Autoevaluación**
+
+| Indicador                                               | Sí  | Aún no |
+| ------------------------------------------------------- | --- | ------ |
+| Uso métodos de Math (round, floor, ceil).               | X   |        |
+| Limpio y transformo textos (trim, toUpperCase, length). | X   |        |
+| Creo fechas recordando que los meses empiezan en 0.     | X   |        |
+| Muestro montos en colones con Intl.                     | X   |        |
+| Elijo entre Number, parseInt y parseFloat.              | X   |        |
+
+</details>
+
 <details>
 <summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary>
 **Ejercicio 1 · Pruebas de cupos.js**
