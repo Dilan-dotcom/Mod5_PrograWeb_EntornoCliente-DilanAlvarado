@@ -601,29 +601,72 @@ CÓMO USAR ESTE BLOQUE (Clase 07)
 
 | #   | Ciclo                                   | Mi predicción | Comprobado |
 | --- | --------------------------------------- | ------------- | ---------- |
-| 1   | `for (let i = 0; i < 5; i++)`           |               |            |
-| 2   | `for (let i = 1; i <= 5; i++)`          |               |            |
-| 3   | `for (let i = 0; i <= 5; i++)`          |               |            |
-| 4   | `let n = 10; while (n > 0) { n -= 3; }` |               |            |
-| 5   | `let n = 0; do { n++; } while (n < 0);` |               |            |
-| 6   | `for (let i = 10; i > 0; i -= 2)`       |               |            |
+| 1   | `for (let i = 0; i < 5; i++)`           | 5             | 0 ..4      |
+| 2   | `for (let i = 1; i <= 5; i++)`          | 5             | 1..5       |
+| 3   | `for (let i = 0; i <= 5; i++)`          | 6             | 0..5       |
+| 4   | `let n = 10; while (n > 0) { n -= 3; }` | 1             | 10,7,4,1   |
+| 5   | `let n = 0; do { n++; } while (n < 0);` | 1             | do while   |
+| 6   | `for (let i = 10; i > 0; i -= 2)`       | 5             | 10,8,6,4,2 |
 
 **Autoevaluación**
 
 | Indicador                                           | Sí  | Aún no |
 | --------------------------------------------------- | --- | ------ |
-| Elijo entre for, while y do while.                  |     |        |
-| Uso break y continue dentro de un ciclo.            |     |        |
-| Creo un vector y uso length, push, pop y join.      |     |        |
-| Recorro un vector con for y con for...of.           |     |        |
-| Leo una matriz con [fila][columna].                 |     |        |
-| Leo los datos de un vector de objetos con el punto. |     |        |
+| Elijo entre for, while y do while.                  |     | x      |
+| Uso break y continue dentro de un ciclo.            |     | x      |
+| Creo un vector y uso length, push, pop y join.      |     | x      |
+| Recorro un vector con for y con for...of.           |     | x      |
+| Leo una matriz con [fila][columna].                 |     | x      |
+| Leo los datos de un vector de objetos con el punto. |     | x      |
 
 </details>
 
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
 ---
+
+<!--
+CÓMO USAR ESTE BLOQUE (Clase 08)
+1. Abra el README.md de la carpeta principal del repositorio
+   (Mod5_PrograWeb_EntornoCliente-Nombre/README.md). Es el único README.
+2. Busque la sección «📝 Respuestas de las prácticas».
+3. Busque el aviso «📌 AQUÍ SE PEGAN LOS BLOQUES NUEVOS».
+   Si no lo tiene, ubíquese debajo del último </details> de esa sección,
+   antes de la línea --- que la cierra.
+4. Pegue ARRIBA de ese aviso todo lo que sigue a este comentario:
+   desde <details> hasta </details>. El aviso queda debajo, listo para la próxima clase.
+5. Deje una línea en blanco antes y después del bloque.
+6. Revise con Ctrl+Shift+V que las tablas se vean bien y guarde.
+-->
+
+<details>
+<summary>▼<b>Clase 08 · 24/11/2026 · Funciones</b></summary>
+
+**¿Qué muestra?** (prediga y luego compruebe en la consola)
+
+| #   | Código                                                 | Mi predicción | Comprobado |
+| --- | ------------------------------------------------------ | ------------- | ---------- |
+| 1   | `let a = 1; function f() { let a = 2; return a; } f()` |               |            |
+| 2   | `(después de lo anterior) a`                           |               |            |
+| 3   | `function g() { let b = 5; } g(); b`                   |               |            |
+| 4   | `const doble = (n) => n * 2; doble(4)`                 |               |            |
+| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              |               |            |
+| 6   | `[5, 8, 2].filter((n) => n > 4).length`                |               |            |
+| 7   | `const s = (x, y) => x + y; s(2)`                      |               |            |
+
+**Autoevaluación**
+
+| Indicador                                      | Sí  | Aún no |
+| ---------------------------------------------- | --- | ------ |
+| Declaro una función y la llamo con argumentos. |     |        |
+| Uso return y entiendo qué pasa si falta.       |     |        |
+| Escribo una función flecha.                    |     |        |
+| Valido los parámetros antes de calcular.       |     |        |
+| Distingo una variable global de una local.     |     |        |
+| Uso forEach, map y filter con un callback.     |     |        |
+| Reconozco un closure y predigo su salida.      |     |        |
+
+</details>
 
 <h2>🍳 El JavaScript de mis sitios</h2>
 
