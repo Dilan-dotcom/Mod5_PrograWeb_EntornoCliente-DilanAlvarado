@@ -102,36 +102,36 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S05</td>
             <td>Números, textos, fechas y conversión de datos</td>
             <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S05/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S05/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S05/pago/js/vuelto.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S05/capturas" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S06</td>
             <td>Decisiones y depuración en el navegador</td>
             <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S06/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S06/js/descuento.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S06/capturas/Captura de pantalla 2026-11-18 152422.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S07/recursos/Captura de pantalla 2026-11-23 162148.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S08</td>
             <td>Funciones</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S08/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S08/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S08/capturas/Captura de pantalla 2026-11-25 223456.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S09</td>
             <td>Objetos y clases + integración MVC · Introducción al DOM</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S09/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S09/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S09/capturas/Captura de pantalla 2026-11-25 165304.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
     </tbody>
 </table>
@@ -644,27 +644,27 @@ CÓMO USAR ESTE BLOQUE (Clase 08)
 
 **¿Qué muestra?** (prediga y luego compruebe en la consola)
 
-| #   | Código                                                 | Mi predicción | Comprobado |
-| --- | ------------------------------------------------------ | ------------- | ---------- |
-| 1   | `let a = 1; function f() { let a = 2; return a; } f()` |               |            |
-| 2   | `(después de lo anterior) a`                           |               |            |
-| 3   | `function g() { let b = 5; } g(); b`                   |               |            |
-| 4   | `const doble = (n) => n * 2; doble(4)`                 |               |            |
-| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              |               |            |
-| 6   | `[5, 8, 2].filter((n) => n > 4).length`                |               |            |
-| 7   | `const s = (x, y) => x + y; s(2)`                      |               |            |
+| #   | Código                                                 | Mi predicción     | Comprobado         |
+| --- | ------------------------------------------------------ | ---------------- | ------------------ |
+| 1   | `let a = 1; function f() { let a = 2; return a; } f()` | 2              | 2                |
+| 2   | `(después de lo anterior) a`                           | 1              | 1                |
+| 3   | `function g() { let b = 5; } g(); b`                   | Error` | ReferenceError   |
+| 4   | `const doble = (n) => n * 2; doble(4)`                 | 8              |8               |
+| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              | 10 20 30   | 10, 20, 30     |
+| 6   | `[5, 8, 2].filter((n) => n > 4).length`                | 2             | 2                |
+| 7   | `const s = (x, y) => x + y; s(2)`                      | `nr`            | NaN              |
 
 **Autoevaluación**
 
 | Indicador                                      | Sí  | Aún no |
-| ---------------------------------------------- | --- | ------ |
-| Declaro una función y la llamo con argumentos. |     |        |
-| Uso return y entiendo qué pasa si falta.       |     |        |
-| Escribo una función flecha.                    |     |        |
-| Valido los parámetros antes de calcular.       |     |        |
-| Distingo una variable global de una local.     |     |        |
-| Uso forEach, map y filter con un callback.     |     |        |
-| Reconozco un closure y predigo su salida.      |     |        |
+| ---------------------------------------------- | :-: | :----: |
+| Declaro una función y la llamo con argumentos. |  X  |        |
+| Uso return y entiendo qué pasa si falta.       |  X  |        |
+| Escribo una función flecha.                    |  X  |        |
+| Valido los parámetros antes de calcular.       |  X  |        |
+| Distingo una variable global de una local.     |  X  |        |
+| Uso forEach, map y filter con un callback.     |  X  |        |
+| Reconozco un closure y predigo su salida.      |  X  |        |
 
 </details>
 <!--
