@@ -12,7 +12,7 @@ class  ControladorReservas{
     }
   }
   actualizar(){
-    this.vista.mostar(this.modelo.lista);
-    this.vista.mostarIngresos(this.modelo.ingresos());
+    this.vista.mostrar(this.modelo.lista);
+    this.vista.mostrarIngresos(this.modelo.ingresos());
   }
 }
