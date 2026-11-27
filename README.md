@@ -686,37 +686,37 @@ CÓMO USAR ESTE BLOQUE (Clase 09)
 
 **Problema → ventaja** (complete con sus palabras)
 
-| Herramienta       | ¿Qué problema resuelve? | ¿Qué ventaja trae? |
-| ----------------- | ----------------------- | ------------------ |
-| Vector            |                         |                    |
-| Vector de objetos |                         |                    |
-| Función           |                         |                    |
-| forEach           |                         |                    |
-| map               |                         |                    |
-| filter            |                         |                    |
-| Clase             |                         |                    |
+| Herramienta       | ¿Qué problema resuelve?                                                                           | ¿Qué ventaja trae?                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Vector            | Tener que crear muchas variables sueltas para datos del mismo tipo.                               | Agrupa varios elementos en una sola lista ordenada y fácil de recorrer por índice.         |
+| Vector de objetos | Mantener datos relacionados repartidos en varios vectores paralelos que pueden desincronizarse.   | Cada elemento reúne sus propios datos en un solo objeto dentro del arreglo.                |
+| Función           | Repetir el mismo bloque de código en distintos lugares del programa.                              | Reutiliza lógica, hace el código más legible y facilita corregir errores en un solo sitio. |
+| forEach           | Escribir un bucle `for` tradicional cuando solo quieres recorrer cada elemento sin crear un arreglo nuevo. | Recorre el arreglo de forma directa y limpia, entregando el valor en cada vuelta.         |
+| map               | Escribir un `for` más un `.push()` manual para transformar cada elemento en otro arreglo.         | Devuelve un arreglo nuevo con los elementos transformados sin modificar el original.       |
+| filter            | Escribir un `for` más un `if` y un `.push()` para quedarte solo con ciertos elementos.            | Devuelve un arreglo nuevo solo con los elementos que cumplen la condición.                 |
+| Clase             | Crear muchos objetos parecidos a mano repitiendo la misma estructura de propiedades y métodos.    | Funciona como plantilla para instanciar objetos ordenados con `new` y compartir métodos.   |
 
 **¿Qué muestra?** (prediga y luego compruebe en la consola)
 
-| #   | Código                                                                                       | Mi predicción | Comprobado |
-| --- | -------------------------------------------------------------------------------------------- | ------------- | ---------- |
-| 1   | `[3, 8, 1].map((n) => n * 2)`                                                                |               |            |
-| 2   | `[3, 8, 1].filter((n) => n > 2)`                                                             |               |            |
-| 3   | `const r = [3, 8, 1].forEach((n) => n * 2); r`                                               |               |            |
-| 4   | `[3, 8, 1].filter((n) => n > 5).map((n) => n + 1)`                                           |               |            |
-| 5   | `class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble()` |               |            |
-| 6   | `const o = { n: 1 }; o.m`                                                                    |               |            |
+| #   | Código                                                                                       | Mi predicción | Comprobado  |
+| --- | -------------------------------------------------------------------------------------------- | ------------- | ----------- |
+| 1   | [3, 8, 1].map((n) => n * 2)                                                                | 6, 16, 2  | 6, 16, 2|
+| 2   | [3, 8, 1].filter((n) => n > 2)                                                             | 3, 8     | 3, 8   |
+| 3   | const r = [3, 8, 1].forEach((n) => n * 2); r                                               | undefine   | undefined |
+| 4   | [3, 8, 1].filter((n) => n > 5).map((n) => n + 1)                                          | 9         | 9      |
+| 5   | class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble() | 8           | 8         |
+| 6   | const o = { n: 1 }; o.m                                                                   | undefined  |`undefined |
 
 **Autoevaluación**
 
 | Indicador                                                                 | Sí  | Aún no |
 | ------------------------------------------------------------------------- | --- | ------ |
-| Explico por qué usar un vector de objetos en lugar de vectores paralelos. |     |        |
-| Elijo entre for, for...of y forEach y explico por qué.                    |     |        |
-| Reescribo un for + push con map y un for + if + push con filter.          |     |        |
-| Creo un objeto con propiedades y un método.                               |     |        |
-| Declaro una clase con constructor y la uso con new.                       |     |        |
-| Explico qué hace el modelo, la vista y el controlador.                    |     |        |
+| Explico por qué usar un vector de objetos en lugar de vectores paralelos. | X   |        |
+| Elijo entre for, for...of y forEach y explico por qué.                    | X   |        |
+| Reescribo un for + push con map y un for + if + push con filter.          | X   |        |
+| Creo un objeto con propiedades y un método.                               | X   |        |
+| Declaro una clase con constructor y la uso con new.                       | X   |        |
+| Explico qué hace el modelo, la vista y el controlador.                    | X   |        |
 
 </details>
 
@@ -767,6 +767,27 @@ body
 | Creo un nodo y lo agrego con append. | | |
 | Cambio la vista de la miniaplicación sin tocar el modelo. | | |
 
+</details>
+
+<details>
+<summary>▼<b>Clase 11 · 27/11/2026 · Eventos</b></summary>
+**¿Qué pasa?** (prediga y luego compruebe en su sitio)
+| # | Situación | Mi predicción | Comprobado |
+|---|---|---|---|
+| 1 | `boton.addEventListener("click", avisar())` | | |
+| 2 | `boton.addEventListener("onclick", avisar)` | | |
+| 3 | `form.addEventListener("submit", () => { … }) sin preventDefault` | | |
+| 4 | `Doble clic en un título de clic.js` | | |
+| 5 | `"7" + 1 al leer personas sin Number` | | |
+**Autoevaluación**
+| Indicador | Sí | Aún no |
+|---|---|---|
+| Registro un evento con addEventListener. | | |
+| Uso el objeto evento (type, target, key) y preventDefault. | | |
+| Uso eventos de mouse: click, dblclick, mouseover, mouseout. | | |
+| Uso eventos de teclado: keydown y keyup. | | |
+| Uso input, change y submit en un formulario. | | |
+| Conecto un formulario con el controlador de la miniaplicación. | | |
 </details>
 
 <h2>🍳 El JavaScript de mis sitios</h2>
